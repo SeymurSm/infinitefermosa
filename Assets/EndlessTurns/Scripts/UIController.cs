@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class UIController : MonoBehaviour {
 
 
-
+    public static UIController Instance;
     public Text score;
     public Text bestScore;
     public Text gold;
@@ -13,9 +13,14 @@ public class UIController : MonoBehaviour {
     public Image unMuteButton;
     public Image replayButton;
     public PlayerController playerController;
+    public GameObject rateMenu;
+    private int playCount ;
 	// Use this for initialization
 	void Start () {
-        
+        Instance = this;
+        playCount = PlayerPrefs.GetInt("play_count");
+        if(playCount>0 && playCount%3 ==0)
+            rateMenu.SetActive(true);
         ScoreManager.Instance.Reset();
         muteButton.enabled = false;
         unMuteButton.enabled = false;
@@ -54,8 +59,15 @@ public class UIController : MonoBehaviour {
 
     public void ReplayButton()
     {
+        PlayerPrefs.SetInt("play_count", playCount+1);
         SoundManager.Instance.PlaySound(SoundManager.Instance.hitButton);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Rate(bool rate){
+        rateMenu.SetActive(false);
+        if(rate)
+            Application.OpenURL("http://unity3d.com/");
     }
 
     void EnableButton()

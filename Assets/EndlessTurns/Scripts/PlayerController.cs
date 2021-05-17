@@ -38,16 +38,18 @@ public class PlayerController : MonoBehaviour
         // Make the player redirected every time we touch the screen
         if (Input.GetMouseButtonDown(0) && groundController.enableTouch && !touchDisable)
         {
-            movingSpeedOfPlayer += movingSpeedIncrement;
-            touchDisable = true;
-            dirTurn = dirTurn * (-1);
-            if (dirTurn < 0)
-            {
-                dir = Vector3.forward;
-            }
-            else
-            {
-                dir = Vector3.right;                            
+            if(!UIController.Instance.rateMenu.activeSelf){
+                movingSpeedOfPlayer += movingSpeedIncrement;
+                touchDisable = true;
+                dirTurn = dirTurn * (-1);
+                if (dirTurn < 0)
+                {
+                    dir = Vector3.forward;
+                }
+                else
+                {
+                    dir = Vector3.right;                            
+                }
             }
 
         }

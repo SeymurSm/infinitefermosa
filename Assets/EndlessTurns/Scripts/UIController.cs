@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -15,12 +15,12 @@ public class UIController : MonoBehaviour {
     public PlayerController playerController;
     public GameObject rateMenu;
     private int playCount ;
+    private bool alreadyDisplayedRate = false;
 	// Use this for initialization
 	void Start () {
         Instance = this;
         playCount = PlayerPrefs.GetInt("play_count");
-        if(playCount>0 && playCount%3 ==0)
-            rateMenu.SetActive(true);
+        
         ScoreManager.Instance.Reset();
         muteButton.enabled = false;
         unMuteButton.enabled = false;
@@ -33,9 +33,11 @@ public class UIController : MonoBehaviour {
         bestScore.text = ScoreManager.Instance.HighScore.ToString();
         gold.text = CoinManager.Instance.Coins.ToString();
 
-        if (playerController.gameOver)
+        if (playerController.gameOver && !alreadyDisplayedRate)
         {
-            Invoke("EnableButton", 1.5f);
+	    alreadyDisplayedRate = true;
+            Invoke("RateDialog", 1.5f);
+	   
         }
 	}
 
@@ -62,16 +64,29 @@ public class UIController : MonoBehaviour {
         PlayerPrefs.SetInt("play_count", playCount+1);
         SoundManager.Instance.PlaySound(SoundManager.Instance.hitButton);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
 
     public void Rate(bool rate){
         rateMenu.SetActive(false);
         if(rate)
             Application.OpenURL("http://unity3d.com/");
+        
+
+EnableButton();
     }
+
+    public void RateDialog(){
+	if(playCount>0 && playCount%3 ==0 ){
+            rateMenu.SetActive(true);
+}
+       else
+	EnableButton();
+}
 
     void EnableButton()
     {
+	rateMenu.SetActive(false);
         replayButton.enabled = true;
         if (SoundManager.Instance.IsMuted())
         {

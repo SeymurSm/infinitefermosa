@@ -1,0 +1,278 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rahmanmammadov/Desktop/Development/InfiniteFermossa/infinitefermosa
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57890
+Successfully changed project path to: /Users/rahmanmammadov/Desktop/Development/InfiniteFermossa/infinitefermosa
+/Users/rahmanmammadov/Desktop/Development/InfiniteFermossa/infinitefermosa
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rahmanmammadov/Desktop/Development/InfiniteFermossa/infinitefermosa/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-17 20:40:19.890 Unity[34541:9669499] Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+2021-05-17 20:40:19.891 Unity[34541:9669499] Metal devices available: 2
+2021-05-17 20:40:19.891 Unity[34541:9669499] 0: AMD Radeon Pro 5300M (high power)
+2021-05-17 20:40:19.891 Unity[34541:9669499] 1: Intel(R) UHD Graphics 630 (low power)
+2021-05-17 20:40:19.893 Unity[34541:9669499] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56541
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000494 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 24.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.598 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1353 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1792.
+Total: 2.020172 ms (FindLiveObjects: 0.167931 ms CreateObjectMapping: 0.048309 ms MarkObjects: 1.727023 ms  DeleteObjects: 0.076002 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+  artifactKey: Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png using Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba97dcba71ab7c85d8748e64cb7acbce') in 1.349526 seconds
+  Import took 1.352979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EndlessTurns/Sprites/ic_launcher_round.png
+  artifactKey: Guid(0c22a04294f9a604a80dbe59dabf12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/ic_launcher_round.png using Guid(0c22a04294f9a604a80dbe59dabf12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4445f8f80052bb566a750497e200894d') in 0.016970 seconds
+  Import took 0.019319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+  artifactKey: Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png using Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec38c19d53568d52bbf0a9edc71505a') in 0.032768 seconds
+  Import took 0.035144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/EndlessTurns/Sprites/icon.png
+  artifactKey: Guid(41476297c6f7b430a9ccd2fece0eb053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/icon.png using Guid(41476297c6f7b430a9ccd2fece0eb053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefb4ccd168a2bf0a3938f58a087cbb1') in 0.016315 seconds
+  Import took 0.019077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+  artifactKey: Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png using Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c44526f673ce912ccbdf96a2b5289c') in 0.029738 seconds
+  Import took 0.032667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/EndlessTurns/Sprites/ic_launcher.png
+  artifactKey: Guid(26a67d640c7e2d146ba420d8963c7922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/ic_launcher.png using Guid(26a67d640c7e2d146ba420d8963c7922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f8358d74cba977e7412b14bcf9b4ad') in 0.017732 seconds
+  Import took 0.019942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+  artifactKey: Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png using Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfba42e0706b7e0443541d4709a3615') in 0.035848 seconds
+  Import took 0.038564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/EndlessTurns/Sprites/sound_on.png
+  artifactKey: Guid(3de85e382e989df4e8af2cd7b9724281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/sound_on.png using Guid(3de85e382e989df4e8af2cd7b9724281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8638ee52d2ab4971eb83e7932dde62df') in 0.018183 seconds
+  Import took 0.020775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/EndlessTurns/Sprites/Gold.png
+  artifactKey: Guid(f57cabb497a5818428ee74571adf6d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/Gold.png using Guid(f57cabb497a5818428ee74571adf6d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b777c3494d9451b711221ae890a49c11') in 0.034004 seconds
+  Import took 0.036720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/EndlessTurns/Sprites/soundoff.png
+  artifactKey: Guid(0df228d720e89d14f9d33b2dfb5f7b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/soundoff.png using Guid(0df228d720e89d14f9d33b2dfb5f7b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35170bd5be8b08f0e3c101082426cac') in 0.015232 seconds
+  Import took 0.017744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+  artifactKey: Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png using Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4195051ec4627522ae41143402f0a0b') in 0.019062 seconds
+  Import took 0.021637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+  artifactKey: Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png using Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8322117f47a38a32bc4192fd16c7a64a') in 0.019888 seconds
+  Import took 0.023640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/EndlessTurns/Sprites/replay.png
+  artifactKey: Guid(b2a3e59d22b4e6e4689a71752796991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/replay.png using Guid(b2a3e59d22b4e6e4689a71752796991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d937f4019eec347558cc57471d83791') in 0.016924 seconds
+  Import took 0.019758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+  artifactKey: Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png using Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4d204352478979fdb16097303eff00') in 0.013696 seconds
+  Import took 0.016886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+  artifactKey: Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png using Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a2a5ea8c2f1e1cd285674354d873bb') in 0.021836 seconds
+  Import took 0.024657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+  artifactKey: Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png using Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f29f1ac0d4e85de3c94bd88618f852') in 0.017392 seconds
+  Import took 0.020518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c50f29939b28c42f83c0915666562fa') in 0.019727 seconds
+  Import took 0.021985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+  artifactKey: Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png using Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fc8783fa7744b1bcadf52bc9d665e7') in 0.021997 seconds
+  Import took 0.024552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+  artifactKey: Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png using Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1063317c58459c09f8645a6ddb122af4') in 0.017322 seconds
+  Import took 0.019899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+  artifactKey: Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png using Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309c6c572f858c795bc4614e4fb26dd1') in 0.021379 seconds
+  Import took 0.024198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+  artifactKey: Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png using Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05a5c657eed30b746420aecf9a1dee4') in 0.020069 seconds
+  Import took 0.022349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/EndlessTurns/Sprites/ic_512x512.png
+  artifactKey: Guid(40b6e4d85b8aec744bfe6df1cb0bc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/ic_512x512.png using Guid(40b6e4d85b8aec744bfe6df1cb0bc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edca947c2d62a0e6c619b0fc0078c537') in 0.028162 seconds
+  Import took 0.030630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+  artifactKey: Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e68581081a1d4b554d9f52624819d3') in 0.013790 seconds
+  Import took 0.016994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/EndlessTurns/Sprites/ballTexture.png
+  artifactKey: Guid(4cab91ea0977f1245a6f139e27e99e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Sprites/ballTexture.png using Guid(4cab91ea0977f1245a6f139e27e99e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec313f9dc5c1b7bdc1c669a05c5256d4') in 0.027721 seconds
+  Import took 0.030243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+  artifactKey: Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessTurns/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png using Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffacf0a9e78894401e0e5184cd63eb15') in 0.020607 seconds
+  Import took 0.023586 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1804.
+Total: 2.025681 ms (FindLiveObjects: 0.141030 ms CreateObjectMapping: 0.043614 ms MarkObjects: 1.829285 ms  DeleteObjects: 0.011068 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

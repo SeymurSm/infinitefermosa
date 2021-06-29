@@ -63,11 +63,11 @@ public class UIController : MonoBehaviour
         {
             alreadyDisplayedRate = true;
            //Invoke("RateDialog", 1.5f);
-            rateMenu.SetActive(true);
+          //      rateMenu.SetActive(true);
         }
         else
         {
-            AdsManager.Instance.ShowIntertitialAd();
+           // AdsManager.Instance.ShowIntertitialAd();
             Application.Quit();
         }
     }
@@ -117,7 +117,9 @@ public class UIController : MonoBehaviour
 
 
     public void NotNow(){
+        
          EnableButton();
+         //AdsManager.Instance.ShowIntertitialAd();   
     }
 
     public void RateDialog()

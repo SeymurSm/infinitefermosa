@@ -13,7 +13,7 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
     string interSurfacingId = "interstitialAdLose";
     private string bannerSurfacingId = "bannerPlacement";
 
-   
+    
     //#if UNITY_IOS
     private string gameId;// = "4142986";
     //#elif UNITY_ANDROID
@@ -65,8 +65,8 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
         // Define conditional logic for each ad completion status:
         if (showResult == ShowResult.Finished) {
             // Reward the user for watching the ad to completion.
-           if(surfacingId == mySurfacingId )
-               UIManagement.Instance.AddCoins();
+        //    if(surfacingId == mySurfacingId )
+        //        UIManagement.Instance.AddCoins();
         } else if (showResult == ShowResult.Skipped) {
             // Do not reward the user for skipping the ad.
         } else if (showResult == ShowResult.Failed) {

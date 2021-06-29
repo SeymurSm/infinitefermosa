@@ -67,6 +67,7 @@ public class UIController : MonoBehaviour
         }
         else
         {
+            AdsManager.Instance.ShowIntertitialAd();
             Application.Quit();
         }
     }
@@ -103,7 +104,7 @@ public class UIController : MonoBehaviour
         if (rate)
         {
             if (Application.platform == RuntimePlatform.IPhonePlayer)
-                Application.OpenURL("http://unity3d.com/");
+                Application.OpenURL("https://apps.apple.com/app/fermosa-unlock-hidden-castle/id1566938055");
             else if (Application.platform == RuntimePlatform.Android)
                 Application.OpenURL("https://play.google.com/store/apps/details?id=com.alvadigames.infinite_fermosa");
 

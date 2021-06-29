@@ -154,10 +154,12 @@ public class PlayerController : MonoBehaviour
         {
             if (!gameOver)
             {
+                
                 SoundManager.Instance.PlaySound(SoundManager.Instance.gameOver);
                 touchDisable = true;
                 gameOver = true;
                 dir = Vector3.down + new Vector3(0, -1, 0);
+                AdsManager.Instance.ShowIntertitialAd();
             }
         }
     }
